@@ -235,3 +235,34 @@ document.getElementById('m14').onclick = function() {
     console.log(arr[2]);
 
 }
+
+// массивы 15
+
+document.getElementById('m15').onclick = function() {
+    var arr = [2, 3, [4, 5]]
+
+    console.log(arr[2][0]);
+    console.log(arr[2][1]);
+
+
+}
+
+// массивы 16
+
+document.getElementById('m16').onclick = function() {
+    var arr = [2, 3, [4, 5]]
+
+    console.log(arr[2]);
+    console.log(arr[2].length);
+}
+
+// массивы 17
+
+document.getElementById('m17').onclick = function() {
+    var arr = [2, [3, 4, 5],
+        [6, 7, 8]
+    ];
+
+    console.log(arr[1][1]);
+    console.log(arr[2][2]);
+}
