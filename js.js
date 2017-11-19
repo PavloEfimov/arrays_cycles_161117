@@ -266,3 +266,40 @@ document.getElementById('m17').onclick = function() {
     console.log(arr[1][1]);
     console.log(arr[2][2]);
 }
+
+// массивы 18
+
+document.getElementById('m18').onclick = function() {
+    var arr = [2, [3, 4, 5],
+        [6, 7, 8]
+    ];
+
+    console.log(arr[2]);
+    console.log(arr[2][0]);
+}
+
+// массивы 19
+
+document.getElementById('m19').onclick = function() {
+    var arr = [2, [3, 4, 5],
+        [6, 7, 8, 9, 11, 12, 13, 14]
+    ];
+    var inner = arr[2];
+
+    for (var i = 0; i < inner.length; i++) {
+        console.log(inner[i]);
+    }
+
+}
+
+// массивы 20
+
+document.getElementById('m20').onclick = function() {
+    var arr = [
+        ['hi', 3, 'beta'],
+        ['foo', 'jam', 'tritto']
+    ];
+
+    console.log(arr[1][0]);
+    console.log(arr[0][2]);
+}
